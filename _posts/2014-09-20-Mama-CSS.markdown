@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Mama CSS"
+date: 2014-09-20
+---
+
+
+Corgis are so damn cute!  Good thing they were everywhere in the lesson!  I probably would not have been able to stay focused otherwise.  
+
+That’s a lie.  I love this CSS shit.  And today is Float Day!  But what the hell is a float?
+
+![NO](/Images/Float.jpg)
+
+No, no.  You know when you want to type a bunch of things, and put Corgis in the middle?  Ya, that kind of float. 
+
+![YES](/Images/FloatingCorgi.jpg)
+
+So the better part of class was spent on finding out how to best make Corgi happy.  And what happens when the Corgi’s parents kick him out of the house (code name:div)?  How do we get the parent to let Cogi back in??  You need to “Clear It” with Mama CSS first.  
+
+HashTagSeeWhatIDidThere
