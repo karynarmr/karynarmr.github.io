@@ -19,7 +19,7 @@ permalink: /about/
 		<div class="container">	
 		<div id="mi-slider" class="mi-slider">
 			<ul>
-						<li a href="1.jpg" class="fancybox" data-fancybox-group="gallery"><img src="/images/1.jpg"/><h4>Twins</h4></a></li>
+						<li><a href="#"><img src="/images/1.jpg"><h4>Twins</h4></a></li>
 						<li><a href="#"><img src="/images/2.jpg" alt="img02"><h4>My older sister and my niece</h4></a></li>
 						<li><a href="#"><img src="/images/3.jpg" alt="img03"><h4>Dad on his tip toes</h4></a></li>
 						<li><a href="#"><img src="/images/4.jpg" alt="img04"><h4>Normal sized Interviewer</h4></a></li>
