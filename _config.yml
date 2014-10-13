@@ -1,9 +1,9 @@
+
 # Site settings
-title: My Jekyll blog
+title: Curve Balancing 
 email: karynarmr33@gmail.com	
-description: > # this means to ignore newlines until "baseurl:"
-  My coding journey began as I struggled to learn how to manage people.  Troubleshooting websites is way less messy.  Rigth?	
-  
+description: "Balancing learning curves, life's curve balls, curves of the banked track, and the curves of my ass.  All on roller skates."
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: karynarmr

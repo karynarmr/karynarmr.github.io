@@ -2,20 +2,24 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 65px;
+    background-color: #d3d1ff;
+
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
+
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
+    font-size: 50px;
+    font-family: Impact, sans-serif;
+    line-height: 70px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-shadow: 5px 2px 7px #625D5D;
 
     &,
     &:visited {
@@ -25,15 +29,16 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 65px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #6C2DC7;
         line-height: $base-line-height;
+        font-family:  Impact, sans-serif;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -82,6 +87,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            font-family:  Impact, sans-serif;
         }
     }
 }
@@ -94,21 +100,24 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #d3d1ff;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    font-family:  Impact, sans-serif;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    font-family:  Impact, sans-serif;
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $base-font-size;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -163,6 +172,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-color: #E3E4FA;
 }
 
 .page-heading {
@@ -186,6 +196,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    font-family:  Impact, sans-serif;
 }
 
 
@@ -198,13 +209,22 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 32px;
     letter-spacing: -1px;
     line-height: 1;
+    text-decoration-color: #d3d1ff;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px;
     }
+    .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
 }
 
 .post-content {
